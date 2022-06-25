@@ -1,0 +1,28 @@
+﻿  Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr.h
+  * Building openxr.h
+  * options.versions          = .*
+  * options.emitversions      = .*
+  * options.defaultExtensions = openxr
+  * options.addExtensions     = _nomatch_^
+  * options.removeExtensions  = _nomatch_^
+  * options.emitExtensions    = .*
+  * Generated openxr.h
+  Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_platform.h
+  * Building openxr_platform.h
+  * options.versions          = .*
+  * options.emitversions      = .*
+  * options.defaultExtensions = openxr
+  * options.addExtensions     = _nomatch_^
+  * options.removeExtensions  = _nomatch_^
+  * options.emitExtensions    = .*
+  * Generated openxr_platform.h
+  Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_reflection.h
+  * Building openxr_reflection.h
+  * options.versions          = .*
+  * options.emitversions      = .*
+  * options.defaultExtensions = openxr
+  * options.addExtensions     = _nomatch_^
+  * options.removeExtensions  = _nomatch_^
+  * options.emitExtensions    = .*
+  * Generated openxr_reflection.h
+  Building Custom Rule D:/OpenXR-SDK-Source-main/include/openxr/CMakeLists.txt

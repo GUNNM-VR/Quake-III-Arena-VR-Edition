@@ -1,0 +1,55 @@
+# --------------------------------------------
+# this Makefile.local allow to compile Quake3e
+# for Vulkan compatible Android device
+# --------------------------------------------
+
+COMPILE_PLATFORM = android
+
+# Android arch : armv7l | aarch64
+ARCH = armv7l
+
+#COMPILE_PLATFORM = linux
+
+platform=android
+
+# path to your GCC
+NDK_PATH = /home/steven/ndk-standalone-14-arm
+GCC_PATH = $(NDK_PATH)/bin/arm-linux-androideabi-gcc
+CC = $(GCC_PATH)
+
+code_path = $(shell pwd)
+
+#link to the library libvrapi.so
+CC += -L. -l$(code_path)/code/android/VrApi/Libs/Android/armeabi-v7a/Release/libvrapi.so
+
+
+# Open Al
+CC_openAl = -I$(code_path)/code
+
+# Oculus VrApi
+CC_VRapi = -lvrapi -I$(code_path)/code/android/VrApi/Include
+
+#CC_vulkan = -I$(code_path)/code/libs/khronos/vulkan_1.1.100.0
+
+CC_NativeActivity = -landroid -I$(code_path)/code/android/native_app_glue -u ANativeActivity_onCreate
+
+CC_vrMode = #-D_vrMode_ #-D_DEBUG
+
+# Some Android specific CFLAGS
+ANDROID_CFLAGS=-mcpu=cortex-a8 -mfloat-abi=softfp #-mfloat-abi=softfp # for vulkan, but should be 'hard'
+
+# avoid GCC warning
+BASE_CFLAGS  += -std=c99 -O3 
+
+BASE_CFLAGS  += $(ANDROID_CFLAGS) $(CC_vulkan) $(CC_NativeActivity) $(CC_openAl) $(CC_vrMode) $(CC_VRapi)
+
+#BASE_CFLAGS += -DVALIDATIONLAYER 	# activate vulkan validation layer, because -D_DEBUG is confusing
+#BASE_CFLAGS += -DDEBUG_VM
+
+# Build preferences
+HAVE_VM_COMPILED 	= 0 # makefile erase this value?
+BUILD_SERVER     	= 0
+USE_CURL         	= 0
+USE_VULKAN       	= 1
+USE_RENDERER_DLOPEN = 0
+

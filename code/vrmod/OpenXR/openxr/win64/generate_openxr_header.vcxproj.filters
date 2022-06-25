@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win64\CMakeFiles\49c54464390d015bbe44a546c071759a\openxr.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win64\CMakeFiles\49c54464390d015bbe44a546c071759a\openxr_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win64\CMakeFiles\49c54464390d015bbe44a546c071759a\openxr_reflection.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win64\CMakeFiles\844effc9b80a3e6b54d35904d665f66f\generate_openxr_header.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\include\openxr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\OpenXR-SDK-Source-main\build\win64\include\openxr\CMakeFiles\generate_openxr_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\OpenXR-SDK-Source-main\specification\registry\xr.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3550014B-A22F-339E-8E41-DF797A40E3B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

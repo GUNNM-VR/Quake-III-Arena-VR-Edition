@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{649932A7-972A-3484-88E4-3389687EB177}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>generate_openxr_header</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win32\CMakeFiles\0585acab7a836edc4128246f3b99f859\openxr.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win32\CMakeFiles\0585acab7a836edc4128246f3b99f859\openxr_platform.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_platform.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_platform.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_platform.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_platform.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_platform.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_platform.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_platform.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_platform.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win32\CMakeFiles\0585acab7a836edc4128246f3b99f859\openxr_reflection.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_reflection.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_reflection.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_reflection.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_reflection.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_reflection.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_reflection.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating D:/OpenXR-SDK-Source-main/build/win32/include/openxr/openxr_reflection.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\famille\AppData\Local\Programs\Python\Python38\python.exe D:/OpenXR-SDK-Source-main/include/openxr/../../specification/scripts/genxr.py -registry D:/OpenXR-SDK-Source-main/include/openxr/../../specification/registry/xr.xml -o D:/OpenXR-SDK-Source-main/build/win32/include/openxr openxr_reflection.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\specification\scripts\genxr.py;D:\OpenXR-SDK-Source-main\specification\scripts\cgenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\creflectiongenerator.py;D:\OpenXR-SDK-Source-main\specification\scripts\generator.py;D:\OpenXR-SDK-Source-main\specification\scripts\reg.py;D:\OpenXR-SDK-Source-main\specification\registry\xr.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\build\win32\CMakeFiles\f79d102ed5969112ef4c2ee63e7026a6\generate_openxr_header.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate_openxr_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate_openxr_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate_openxr_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_platform.h;D:\OpenXR-SDK-Source-main\build\win32\include\openxr\openxr_reflection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate_openxr_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenXR-SDK-Source-main\include\openxr\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OpenXR-SDK-Source-main/include/openxr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenXR-SDK-Source-main -BD:/OpenXR-SDK-Source-main/build/win32 --check-stamp-file D:/OpenXR-SDK-Source-main/build/win32/include/openxr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\include\openxr\openxr_platform_defines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OpenXR-SDK-Source-main/include/openxr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenXR-SDK-Source-main -BD:/OpenXR-SDK-Source-main/build/win32 --check-stamp-file D:/OpenXR-SDK-Source-main/build/win32/include/openxr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\include\openxr\openxr_platform_defines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OpenXR-SDK-Source-main/include/openxr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenXR-SDK-Source-main -BD:/OpenXR-SDK-Source-main/build/win32 --check-stamp-file D:/OpenXR-SDK-Source-main/build/win32/include/openxr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\include\openxr\openxr_platform_defines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OpenXR-SDK-Source-main/include/openxr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenXR-SDK-Source-main -BD:/OpenXR-SDK-Source-main/build/win32 --check-stamp-file D:/OpenXR-SDK-Source-main/build/win32/include/openxr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\include\openxr\openxr_platform_defines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\OpenXR-SDK-Source-main\specification\registry\xr.xml" />
+    <None Include="D:\OpenXR-SDK-Source-main\build\win32\include\openxr\CMakeFiles\generate_openxr_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\OpenXR-SDK-Source-main\build\win32\ZERO_CHECK.vcxproj">
+      <Project>{883ADC4C-AE51-3239-A39E-CC4D67EBDB1C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
