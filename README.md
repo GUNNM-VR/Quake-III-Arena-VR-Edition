@@ -1,6 +1,7 @@
 # Quake III VR Edition
-
+<a href="https://discord.gg/pAZCJ9pt">
 ![Discord](https://img.shields.io/discord/950865674505437214?style=plastic)
+</a>
 
 This is an early version, only the 3Dof version has been tested in multiplayer, and since then many modifications have been made.
 
