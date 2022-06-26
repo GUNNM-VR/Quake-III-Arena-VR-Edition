@@ -1,8 +1,7 @@
 # Quake III VR Edition
-<a href="https://discord.gg/pAZCJ9pt">
-![Discord](https://img.shields.io/discord/950865674505437214?style=plastic)
-</a>
 
+<a href="https://discord.gg/pAZCJ9pt"><img src="https://img.shields.io/discord/950865674505437214?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
+ 
 This is an early version, only the 3Dof version has been tested in multiplayer, and since then many modifications have been made.
 
 This is a VR, Vulkan only atm, version of Quake III arena, for PCVR, VRAPI (quest / GO / Gear), and OpenXR device. (It also works 2D on most system, android, raspery...)
