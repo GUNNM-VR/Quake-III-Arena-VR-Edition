@@ -13,11 +13,12 @@ This fast Vulkan renderer allow Quake III arena VR Edition to run 72fps on Oculu
 * baseq3a is Cyrax's Quake3 gamecode, with unlagged weapons, bugs fixes, faster server scanning, etc.
 
 Quake III arena VR Edition also contains QuakeLive items timer, the grappling hook, both can be enable with server commands.
+It also contains a virtual menu reinforcing the immersion, and a virtual keyboard allows Quake3 to have easy keyboard access on any system. Both are rendered with game calls.
+https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
 
 First aiming the OculusGo, Quake III arena VR Edition contains a solid 3Dof mode.
 Then drBeef 6Dof mode was added, with some others improvement from ioq3Quest: 6Dof, native QVM for q3a servers compatibility, the weapon-wheel selector, the bird view deathcam.
 
-The virtual menu reinforces the immersion, a virtual keyboard allows Quake3 to have easy keyboard access on any system. Both are rendered with game calls.
 
 ## A native and a non-native version
 The non-native version works like the standard version of Quake3.
