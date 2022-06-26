@@ -58,6 +58,7 @@ We also need preprocessors defined, they are in the visual studio compilation de
 Preprocessor command are also used as -Dflags, they are in Application.mk
 You must have the client folder next to the Android Studio Solution root folder, in order to compile the Android client.
 Here is the structure you need:
+	
 	* yourQuake3VRFolder/
 	
 		* Quake-III-Arena-VR-Edition/
