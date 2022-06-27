@@ -67,8 +67,10 @@ Here is the structure you need:
 		
 		* Quest-Quake-III-VR-Edition/
 
-*** Update 28/06/2022 : 
-You need to rename client folder Quake-III-Arena-VR-Edition    to    Quake3e-master
+*** Update 28/06/2022 :
+
+You need to rename client folder "Quake-III-Arena-VR-Edition" to "Quake3e-master"
+
 TODO : change this folder in Android Studio Solution.
 
 		
