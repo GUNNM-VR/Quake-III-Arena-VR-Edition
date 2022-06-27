@@ -61,12 +61,16 @@ Here is the structure you need:
 	
 	* yourQuake3VRFolder/
 	
-		* Quake-III-Arena-VR-Edition/
+		* Quake-III-Arena-VR-Edition/      ***
 		
 		* baseq3a-VR-Edition/
 		
 		* Quest-Quake-III-VR-Edition/
-		
+
+*** Update 28/06/2022 : 
+You need to rename client folder Quake-III-Arena-VR-Edition    to    Quake3e-master
+TODO : change this folder in Android Studio Solution.
+
 		
 ## Compiling the Go/Gear app
 Same as "Compiling the Quest app" but with the Android Studio solution : GoGear-Quake-III-VR-Edition/
