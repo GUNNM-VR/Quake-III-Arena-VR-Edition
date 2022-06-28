@@ -14,6 +14,7 @@ This fast Vulkan renderer allow Quake III arena VR Edition to run 72fps on Oculu
 
 Quake III arena VR Edition also contains QuakeLive items timer, the grappling hook, both can be enable with server commands.
 It also contains a virtual menu reinforcing the immersion, and a virtual keyboard allows Quake3 to have easy keyboard access on any system. Both are rendered with game calls.
+items timer kindly provided by [Megamind](https://github.com/briancullinan "Megamind").
 
 https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
 
