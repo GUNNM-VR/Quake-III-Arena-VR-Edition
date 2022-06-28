@@ -16,7 +16,7 @@ Quake III arena VR Edition also contains QuakeLive items timer, kindly provided 
 
 Quake III VR Edition also contains a virtual menu reinforcing the immersion, and a virtual keyboard allows Quake3 to have easy keyboard access on any system. Both are rendered with game calls.
 
-There is also a [HUD parser](https://github.com/GUNNM-VR/baseq3a-NeoHud "HUD parser"), specially designed for him.
+There is also a specially designed [HUD parser](https://github.com/GUNNM-VR/baseq3a-NeoHud "HUD parser").
 
 Here you can see a video of the OculusGo version: https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
 
