@@ -18,7 +18,7 @@ It also contains a virtual menu reinforcing the immersion, and a virtual keyboar
 
 There is also a [HUD parser](https://github.com/GUNNM-VR/baseq3a-NeoHud "HUD parser"), specially designed for him.
 
-https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
+Here you can see a video of the OculusGo version: https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
 
 First aiming the OculusGo, Quake III arena VR Edition contains a solid 3Dof mode.
 Then drBeef 6Dof mode was added, with some others improvement from ioq3Quest: 6Dof, native QVM for q3a servers compatibility, the weapon-wheel selector, the bird view deathcam.
