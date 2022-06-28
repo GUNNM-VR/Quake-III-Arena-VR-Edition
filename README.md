@@ -13,7 +13,9 @@ This fast Vulkan renderer allow Quake III arena VR Edition to run 72fps on Oculu
 * baseq3a is Cyrax's Quake3 gamecode, with unlagged weapons, bugs fixes, faster server scanning, etc.
 
 Quake III arena VR Edition also contains QuakeLive items timer, (kindly provided by [Megamind](https://github.com/briancullinan "Megamind")), and the [Open Arena](https://github.com/OpenArena/ "Open Arena") grappling hook. Both can be enable with server commands.
+
 It also contains a virtual menu reinforcing the immersion, and a virtual keyboard allows Quake3 to have easy keyboard access on any system. Both are rendered with game calls.
+
 There is also a [HUD parser](https://github.com/GUNNM-VR/baseq3a-NeoHud "HUD parser"), specially designed for him.
 
 https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
