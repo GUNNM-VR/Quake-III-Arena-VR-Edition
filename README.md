@@ -21,8 +21,7 @@ There is also a specially designed [HUD parser](https://github.com/GUNNM-VR/base
 Here you can see a video of the OculusGo version: https://www.youtube.com/watch?v=-jgpVbIBq7Y&t=2s
 
 First aiming the OculusGo, Quake III arena VR Edition contains a solid 3Dof mode.
-Then drBeef 6Dof mode was added, with some others improvement from ioq3Quest: 6Dof, native QVM for q3a servers compatibility, the weapon-wheel selector, the bird view deathcam.
-
+The 6Dof is not finished at the moment, better not to activate it. I will resume work on it as soon as possible.
 
 ## A native and a non-native version
 The non-native version works like the standard version of Quake3.
@@ -91,4 +90,3 @@ Copy the one you need in your baseq3 folder, next to pak8aVR.pk3, and other Quak
 
 * https://github.com/ec-/Quake3e
 * https://github.com/ec-/baseq3a
-* https://github.com/DrBeef
